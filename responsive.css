@@ -1,0 +1,66 @@
+/* ================= RESPONSIVE CSS ================= */
+@media(max-width:900px){
+  .navbar{
+    height:auto;
+    padding:18px 6%;
+    align-items:flex-start;
+    gap:18px;
+  }
+
+  nav{
+    display:none;
+  }
+
+  .nav-btn{
+    display:none;
+  }
+
+  .page-hero h1,
+  .hero h1,
+  .service-hero h1,
+  .manufacturing-hero h1,
+  .team-hero h1{
+    font-size:38px;
+  }
+
+  .section-title h2,
+  .cta h2{
+    font-size:32px;
+  }
+
+  .hero,
+  .about,
+  .service-detail,
+  .facility-section,
+  .two-col{
+    grid-template-columns:1fr;
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .category-grid,
+  .service-grid,
+  .manufacturing-grid,
+  .process-grid,
+  .info-grid,
+  .client-grid,
+  .values-big-grid{
+    grid-template-columns:1fr;
+  }
+
+  .footer-container{
+    grid-template-columns:1fr;
+  }
+
+  .footer-bottom{
+    flex-direction:column;
+    gap:12px;
+    text-align:center;
+  }
+
+  .team-header,
+  .team-body,
+  .chairman-box{
+    padding:30px 25px;
+  }
+}
