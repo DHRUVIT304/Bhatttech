@@ -46,15 +46,18 @@
 
 .category-grid{
   display:grid;
-  grid-template-columns:repeat(4,1fr);
+  grid-template-columns:repeat(3,1fr);
   gap:25px;
 }
 
 .category-card{
   background:var(--light);
+  color:inherit;
+  display:block;
   padding:35px;
   min-height:220px;
   border-bottom:4px solid var(--blue);
+  position:relative;
   transition:.3s;
 }
 
@@ -71,6 +74,19 @@
 
 .category-card p{
   line-height:1.6;
+}
+
+.category-card span{
+  position:absolute;
+  right:28px;
+  bottom:24px;
+  color:var(--blue);
+  font-size:14px;
+  font-weight:800;
+}
+
+.category-card:hover span{
+  color:var(--sky);
 }
 
 .about{
