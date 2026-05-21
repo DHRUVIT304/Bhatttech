@@ -1,0 +1,148 @@
+/* ================= CORPORATE PAGES ================= */
+.inner-section{
+  padding:100px 7%;
+  background:white;
+}
+
+.inner-section.gray{
+  background:var(--light);
+}
+
+.two-col{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:65px;
+  align-items:center;
+}
+
+.text-block h2{
+  font-size:46px;
+  line-height:1.2;
+  margin-bottom:22px;
+}
+
+.text-block p{
+  line-height:1.9;
+  margin-bottom:18px;
+  color:#333;
+}
+
+.image-panel{
+  min-height:390px;
+  border-radius:14px;
+  background:linear-gradient(135deg,var(--dark),var(--blue));
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  padding:45px;
+  text-align:center;
+  box-shadow:var(--shadow);
+}
+
+.image-panel h3{
+  font-size:36px;
+  margin-bottom:18px;
+}
+
+.image-panel p{
+  line-height:1.8;
+  color:#e8f7ff;
+}
+
+.info-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:28px;
+  margin-top:45px;
+}
+
+.info-card{
+  background:white;
+  padding:36px;
+  border-bottom:5px solid var(--blue);
+  box-shadow:0 12px 35px rgba(0,0,0,.08);
+  transition:.35s;
+}
+
+.info-card:hover{
+  transform:translateY(-10px);
+  background:var(--dark);
+  color:white;
+}
+
+.info-card h3{
+  font-size:24px;
+  margin-bottom:14px;
+}
+
+.info-card p{
+  line-height:1.75;
+}
+
+.client-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:24px;
+  margin-top:45px;
+}
+
+.client-card{
+  background:white;
+  padding:35px;
+  text-align:center;
+  border-radius:8px;
+  border:1px solid #e5e7eb;
+  transition:.35s;
+}
+
+.client-card:hover{
+  background:var(--blue);
+  color:white;
+  transform:translateY(-8px);
+}
+
+.values-big-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:30px;
+  margin-top:45px;
+}
+
+.value-big-card{
+  background:white;
+  padding:45px;
+  border-left:5px solid var(--blue);
+  box-shadow:0 15px 40px rgba(0,0,0,.08);
+  transition:.35s;
+}
+
+.value-big-card:hover{
+  background:var(--dark);
+  color:white;
+  transform:translateY(-8px);
+}
+
+.chairman-box{
+  background:var(--dark);
+  color:white;
+  padding:60px;
+  border-radius:18px;
+}
+
+.chairman-box h2{
+  font-size:44px;
+  margin-bottom:15px;
+}
+
+.chairman-box h4{
+  color:var(--sky);
+  font-size:20px;
+  margin-bottom:22px;
+}
+
+.chairman-box p{
+  line-height:1.9;
+  color:#e5e7eb;
+  margin-bottom:18px;
+}

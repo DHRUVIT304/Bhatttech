@@ -1,0 +1,87 @@
+/* ================= SERVICE PAGE ================= */
+.service-hero{
+  min-height:70vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+  background:linear-gradient(rgba(0,0,0,.68),rgba(0,0,0,.68)),url("../img/service-bg.jpg");
+  background-size:cover;
+  background-position:center;
+}
+
+.service-hero-content{
+  max-width:900px;
+  padding:0 7%;
+}
+
+.service-hero h1{
+  font-size:58px;
+  line-height:1.1;
+  margin:20px 0;
+}
+
+.service-hero p{
+  font-size:18px;
+  line-height:1.8;
+}
+
+.top-services{
+  padding:100px 7%;
+}
+
+.service-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:30px;
+}
+
+.service-card{
+  background:white;
+  padding:45px;
+  border-bottom:5px solid var(--blue);
+  transition:.35s;
+  box-shadow:0 10px 30px rgba(0,0,0,.07);
+}
+
+.service-card:hover{
+  transform:translateY(-10px);
+  background:var(--dark);
+  color:white;
+}
+
+.service-card h3{
+  font-size:28px;
+  margin-bottom:20px;
+}
+
+.service-card p{
+  line-height:1.8;
+}
+
+.service-detail{
+  padding:100px 7%;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:70px;
+  align-items:center;
+  background:white;
+}
+
+.service-detail img{
+  width:100%;
+  border-radius:12px;
+  box-shadow:var(--shadow);
+}
+
+.service-detail h2{
+  font-size:48px;
+  margin-bottom:25px;
+  line-height:1.2;
+}
+
+.service-detail p{
+  line-height:1.9;
+  margin-bottom:20px;
+}

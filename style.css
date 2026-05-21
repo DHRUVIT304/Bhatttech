@@ -1,0 +1,306 @@
+/* ================= COMMON CSS ================= */
+:root{
+  --blue:#0077c8;
+  --sky:#00aaff;
+  --dark:#111827;
+  --black:#050505;
+  --light:#f5f7fa;
+  --white:#ffffff;
+  --text:#222;
+  --gray:#cfcfcf;
+  --shadow:0 15px 40px rgba(0,0,0,.12);
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+body{
+  color:#111;
+  background:var(--light);
+}
+
+a{
+  text-decoration:none;
+}
+
+.navbar{
+  height:80px;
+  padding:0 7%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background:var(--white);
+  box-shadow:0 5px 20px rgba(0,0,0,.08);
+  position:sticky;
+  top:0;
+  z-index:999;
+}
+
+/* LOGO IMAGE */
+
+.logo img{
+    height: 50px;
+    width: 240px;
+    object-fit: contain;
+    display: block;
+}
+
+nav{
+  display:flex;
+  align-items:center;
+  gap:22px;
+}
+
+nav a{
+  color:#222;
+  font-weight:600;
+  position:relative;
+  padding:8px 0;
+}
+/* ACTIVE NAVBAR LINK */
+
+nav a.active{
+    color: #0077c8;
+}
+/* UNDERLINE */
+
+nav a.active::after{
+    width: 100%;
+}
+
+nav a::after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:0;
+  height:2px;
+  background:var(--sky);
+  transition:.3s;
+}
+
+nav a:hover::after{
+  width:100%;
+}
+
+.nav-btn,.primary-btn{
+  background:var(--blue);
+  color:var(--white);
+  padding:13px 25px;
+  border-radius:3px;
+  font-weight:700;
+  display:inline-block;
+  transition:.3s;
+}
+
+.nav-btn:hover,.primary-btn:hover{
+  background:var(--dark);
+  transform:translateY(-3px);
+}
+
+.secondary-btn{
+  color:var(--white);
+  border:2px solid var(--white);
+  padding:12px 25px;
+  font-weight:700;
+  display:inline-block;
+  margin-left:15px;
+}
+
+.dropdown{
+  position:relative;
+}
+
+.dropdown-menu{
+  position:absolute;
+  top:42px;
+  left:0;
+  width:300px;
+  background:#8e94a0;
+  border-radius:14px;
+  padding:14px 0;
+  opacity:0;
+  visibility:hidden;
+  transform:translateY(15px);
+  transition:.35s;
+  box-shadow:var(--shadow);
+}
+
+.dropdown-menu a{
+  display:block;
+  color:#969696;
+  padding:14px 25px;
+}
+
+.dropdown-menu a:hover{
+  background:rgba(255,255,255,.06);
+  color:var(--sky);
+  padding-left:34px;
+}
+
+.dropdown:hover .dropdown-menu{
+  opacity:1;
+  visibility:visible;
+  transform:translateY(0);
+}
+
+.section-title{
+  text-align:center;
+  margin-bottom:55px;
+}
+
+.section-title p,.tagline,.small-title{
+  color:var(--blue);
+  font-weight:800;
+  text-transform:uppercase;
+  margin-bottom:12px;
+  letter-spacing:1px;
+}
+
+.section-title h2{
+  font-size:42px;
+  line-height:1.2;
+}
+
+.page-hero{
+  min-height:62vh;
+  padding:110px 7%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:var(--white);
+  background:linear-gradient(rgba(0,0,0,.68),rgba(0,0,0,.68)),url("../img/machine.jpg");
+  background-size:cover;
+  background-position:center;
+}
+
+.page-hero-content{
+  max-width:900px;
+}
+
+.page-hero h1{
+  font-size:58px;
+  line-height:1.1;
+  margin:18px 0;
+}
+
+.page-hero p{
+  line-height:1.8;
+  font-size:18px;
+}
+
+.cta{
+  padding:90px 7%;
+  text-align:center;
+  background:linear-gradient(135deg,var(--blue),#001f3f);
+  color:var(--white);
+}
+
+.cta h2{
+  font-size:42px;
+  margin-bottom:15px;
+}
+
+.cta p{
+  font-size:18px;
+  margin-bottom:30px;
+}
+
+.cta a{
+  display:inline-block;
+  padding:15px 35px;
+  background:var(--white);
+  color:var(--blue);
+  font-weight:800;
+}
+
+.footer{
+  background:var(--black);
+  color:var(--white);
+  padding-top:80px;
+}
+
+.footer-container{
+  width:85%;
+  margin:auto;
+  display:grid;
+  grid-template-columns:1.3fr 1fr 1fr;
+  gap:60px;
+  padding-bottom:65px;
+}
+
+.footer-box h2{
+  font-size:40px;
+  line-height:1.3;
+  margin-bottom:28px;
+}
+
+.footer-box h3{
+  font-size:24px;
+  margin-bottom:25px;
+  position:relative;
+}
+
+.footer-box h3::after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:-10px;
+  width:50px;
+  height:3px;
+  background:var(--sky);
+}
+
+.footer-box ul{
+  list-style:none;
+}
+
+.footer-box li{
+  margin-bottom:15px;
+}
+
+.footer-box a,.footer-box p{
+  color:var(--gray);
+  line-height:1.7;
+}
+
+.footer-box a:hover{
+  color:var(--sky);
+}
+
+.footer-btn{
+  display:inline-block;
+  background:var(--blue);
+  color:var(--white)!important;
+  padding:14px 32px;
+  font-weight:800;
+}
+
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,.1);
+  padding:24px 8%;
+  display:flex;
+  justify-content:space-between;
+  color:#999;
+  font-size:14px;
+}
+
+/* CORPORATE DROPDOWN FIX */
+
+.dropdown-menu{
+    background: #111827;
+}
+
+.dropdown-menu a{
+    color: #d6d6d6 !important;
+}
+
+.dropdown-menu a:hover{
+    color: #00aaff !important;
+    background: rgba(255,255,255,0.06);
+}
