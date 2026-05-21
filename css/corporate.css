@@ -87,19 +87,57 @@
   margin-top:45px;
 }
 
+.clients-intro-copy{
+  max-width:980px;
+  margin:0 auto;
+}
+
+.clients-intro-copy h2{
+  max-width:620px;
+  font-size:46px;
+  line-height:1.18;
+  margin-bottom:24px;
+}
+
+.clients-intro-copy h2 span{
+  color:var(--blue);
+}
+
+.clients-intro-copy p:not(.small-title){
+  max-width:920px;
+  color:#333;
+  line-height:1.9;
+  margin-bottom:18px;
+}
+
+.clients-showcase .section-title{
+  margin-bottom:0;
+}
+
 .client-card{
   background:white;
-  padding:35px;
+  min-height:190px;
+  padding:24px;
   text-align:center;
   border-radius:8px;
   border:1px solid #e5e7eb;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   transition:.35s;
 }
 
 .client-card:hover{
-  background:var(--blue);
-  color:white;
+  border-color:var(--blue);
   transform:translateY(-8px);
+  box-shadow:var(--shadow);
+}
+
+.client-card img{
+  width:100%;
+  height:140px;
+  object-fit:contain;
+  display:block;
 }
 
 .values-big-grid{
@@ -109,12 +147,86 @@
   margin-top:45px;
 }
 
+.direction-stack{
+  display:grid;
+  gap:70px;
+}
+
+.direction-story{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:55px;
+  align-items:center;
+}
+
+.direction-copy h3{
+  font-size:38px;
+  line-height:1.22;
+  margin-bottom:22px;
+}
+
+.direction-copy p:not(.small-title){
+  color:#333;
+  line-height:1.9;
+  margin-bottom:18px;
+}
+
+.direction-image{
+  min-height:420px;
+  overflow:hidden;
+  border-radius:8px;
+  box-shadow:var(--shadow);
+}
+
+.direction-image img{
+  width:100%;
+  height:100%;
+  min-height:420px;
+  object-fit:cover;
+  display:block;
+}
+
+.direction-points{
+  display:grid;
+  gap:14px;
+  margin-top:24px;
+  padding-left:22px;
+  color:#222;
+  line-height:1.7;
+}
+
+.direction-points li::marker{
+  color:var(--blue);
+}
+
+.values-title{
+  margin-bottom:0;
+}
+
 .value-big-card{
   background:white;
-  padding:45px;
+  padding:24px 24px 38px;
   border-left:5px solid var(--blue);
   box-shadow:0 15px 40px rgba(0,0,0,.08);
   transition:.35s;
+}
+
+.value-big-card img{
+  width:100%;
+  height:260px;
+  object-fit:cover;
+  display:block;
+  border-radius:6px;
+  margin-bottom:26px;
+}
+
+.value-big-card h3{
+  font-size:28px;
+  margin-bottom:16px;
+}
+
+.value-big-card p{
+  line-height:1.8;
 }
 
 .value-big-card:hover{
