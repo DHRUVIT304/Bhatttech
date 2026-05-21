@@ -24,7 +24,9 @@
   }
 
   .section-title h2,
-  .cta h2{
+  .cta h2,
+  .clients-intro-copy h2,
+  .direction-copy h3{
     font-size:32px;
   }
 
@@ -32,10 +34,24 @@
   .about,
   .service-detail,
   .facility-section,
-  .two-col{
+  .two-col,
+  .direction-story{
     grid-template-columns:1fr;
     flex-direction:column;
     text-align:center;
+  }
+
+  .direction-image,
+  .direction-image img{
+    min-height:280px;
+  }
+
+  .value-big-card img{
+    height:220px;
+  }
+
+  .direction-points{
+    text-align:left;
   }
 
   .category-grid,
