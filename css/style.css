@@ -97,6 +97,10 @@ nav a:hover::after{
   transition:.3s;
 }
 
+.nav-btn a{
+  color:var(--white);
+}
+
 .nav-btn:hover,.primary-btn:hover{
   background:var(--dark);
   transform:translateY(-3px);
