@@ -25,7 +25,6 @@
 
   .section-title h2,
   .cta h2,
-  .clients-intro-copy h2,
   .direction-copy h3{
     font-size:32px;
   }
@@ -72,9 +71,5 @@
     flex-direction:column;
     gap:12px;
     text-align:center;
-  }
-
-  .chairman-box{
-    padding:30px 25px;
   }
 }

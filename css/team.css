@@ -24,8 +24,7 @@
   letter-spacing:2px;
 }
 
-.team-section,
-.team-section-page{
+.team-section{
   padding:90px 7% 70px;
   background:#f3f4f6;
 }
@@ -142,8 +141,7 @@
 }
 
 @media(max-width:760px){
-  .team-section,
-  .team-section-page{
+  .team-section{
     padding:70px 6% 55px;
   }
 
