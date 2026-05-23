@@ -6,7 +6,7 @@ Advanced Slicing Features with Pre-Defined Parameters
 Consistent Results and Reliability
 Exceptional Beam Quality Gives Lowest Breakages. Thin Beam
 Polarization Control Allows To Cut In Any Direction With Good Surface Quality Sealed Resonator
-Best Model In Performance with Attractive A Sleek Design In Industry
+Strong Performance with Attractive A Sleek Design In Industry
 Robust and Sturdy Structure For Lowest Vibration, Minimum Maintenance and High Quality Output
 Industry Proven Components For Long Terms Stability
 Tec Controlld Lbo Cooling Provide Laser Beam Quality
@@ -41,7 +41,6 @@ Length x Width x Height:1200mm x 670mm x 1500mm
 Weight:550 kg
 
 2)Diamond Polishing Bench 
-Model 2023
 Key Features
 High Precision Diamond Polishing
 Heavy-Duty Industrial Construction
@@ -54,7 +53,6 @@ Low Maintenance Machine
 Technical Specifications
 Specification	Details
 Product Name	Diamond Polishing Bench
-Model	2023
 Motor Power	0.5 HP – 1 HP
 Voltage	220V / 440V
 Phase	Single / Three Phase

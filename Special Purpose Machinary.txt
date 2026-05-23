@@ -10,7 +10,6 @@ Features :
  Kitchenware Marking for logo, date and QR Code.
 
 Technical Specification
-Model	PRIME-20	DELTA-30	CROSS-50	PI-100
 Average Power	20W	30W	50W	100W
 Wave Length	1064nm	1064nm	1064nm	1064nm
 Total Power	500W	500W	600W	1000W
@@ -32,7 +31,6 @@ Features :
  Kitchenware Marking for logo, date and QR Code.
 
 Technical Specification
-Model	DLT20M120	DLT20M130	DLT20M150	DLT20M1100
 Average Power	20W	30W	50W	100W
 Wave Length				
 Total Power	500W	500W	600W	1000W
@@ -54,7 +52,6 @@ Features :
  Kitchenware Marking for logo, date and QR Code.
 
 Technical Specification
-Model	DLT20M150	DLT20M1100
 Average Power	50W	100W
 Wave Length		
 Total Power	600W	1000W
@@ -71,7 +68,6 @@ Equipment Size	40*52*70cm(15.7*20.5*27.6in)
 
 Type	Automatic
 Frequency	50 Hz
-Model Name/Number	MKIJS1
 Power	1.5 kW
 Speed Range	15000
 Weight	150kg
@@ -81,5 +77,5 @@ Tilt Angle	90 degree
 Warranty	1 Year
 Voltage	220 V
 Temperature Range	37 Degree
-Brand	MKI
+Brand	Bhatttech
 Is It Portable	Portable
