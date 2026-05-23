@@ -336,7 +336,7 @@
 }
 
 .product-link-card .product-image-box::after{
-  content:"Open Details";
+  content:"View Details";
 }
 
 .product-detail-hero{
@@ -373,9 +373,11 @@
 
 .product-detail-layout{
   display:grid;
-  grid-template-columns:minmax(320px,.9fr) minmax(0,1.1fr);
-  gap:40px;
+  grid-template-columns:1fr;
+  gap:30px;
   align-items:start;
+  max-width:1100px;
+  margin:0 auto;
 }
 
 .product-detail-media,
@@ -387,13 +389,11 @@
 
 .product-detail-media{
   padding:28px;
-  position:sticky;
-  top:104px;
 }
 
 .product-detail-media img{
   width:100%;
-  height:min(58vh,560px);
+  height:min(68vh,620px);
   object-fit:contain;
   display:block;
   background:white;
@@ -511,14 +511,6 @@
 
   .product-detail{
     padding:42px 6% 70px;
-  }
-
-  .product-detail-layout{
-    grid-template-columns:1fr;
-  }
-
-  .product-detail-media{
-    position:static;
   }
 
   .product-detail-media img{
