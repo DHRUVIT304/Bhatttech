@@ -103,6 +103,8 @@
 
 .map-box{
     height: 620px;
+    width:100%;
+    min-width:0;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 15px 40px rgba(0,0,0,0.08);
@@ -138,7 +140,8 @@
 @media(max-width:900px){
   .contact-main{
     padding:70px 6%;
-    gap:45px;
+    grid-template-columns:1fr;
+    gap:36px;
   }
 
   .contact-hero-content h1{
@@ -146,7 +149,16 @@
   }
 
   .map-box{
-    height:380px;
+    height:340px;
+    border-radius:8px;
+    order:2;
+  }
+
+  .map-action{
+    right:16px;
+    bottom:16px;
+    padding:12px 16px;
+    font-size:14px;
   }
 }
 

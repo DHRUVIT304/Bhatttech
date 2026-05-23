@@ -55,6 +55,32 @@ nav{
   gap:22px;
 }
 
+.nav-toggle,
+.menu-toggle{
+  display:none;
+}
+
+.menu-toggle{
+  width:44px;
+  height:44px;
+  border:1px solid #e5e7eb;
+  border-radius:6px;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  gap:5px;
+  background:var(--white);
+  cursor:pointer;
+}
+
+.menu-toggle span{
+  width:22px;
+  height:2px;
+  background:var(--dark);
+  display:block;
+  transition:.25s;
+}
+
 nav a{
   color:#222;
   font-weight:600;
