@@ -331,6 +331,135 @@
   overflow:hidden;
 }
 
+.product-link-card{
+  color:inherit;
+}
+
+.product-link-card .product-image-box::after{
+  content:"View Details";
+}
+
+.product-detail-hero{
+  padding:56px 7%;
+  background:var(--dark);
+  color:white;
+}
+
+.product-detail-hero a{
+  display:inline-block;
+  margin-bottom:26px;
+  color:#9ddcff;
+  font-weight:800;
+}
+
+.product-detail-hero p{
+  color:var(--sky);
+  font-weight:800;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  margin-bottom:12px;
+}
+
+.product-detail-hero h1{
+  max-width:980px;
+  font-size:48px;
+  line-height:1.15;
+}
+
+.product-detail{
+  padding:70px 7% 100px;
+  background:var(--light);
+}
+
+.product-detail-layout{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:30px;
+  align-items:start;
+  max-width:1100px;
+  margin:0 auto;
+}
+
+.product-detail-media,
+.product-detail-content{
+  background:white;
+  border-radius:8px;
+  box-shadow:var(--shadow);
+}
+
+.product-detail-media{
+  padding:28px;
+}
+
+.product-detail-media img{
+  width:100%;
+  height:min(68vh,620px);
+  object-fit:contain;
+  display:block;
+  background:white;
+}
+
+.product-detail-content{
+  padding:34px;
+}
+
+.detail-section{
+  padding-bottom:28px;
+  margin-bottom:28px;
+  border-bottom:1px solid #e5e7eb;
+}
+
+.detail-section:last-child{
+  padding-bottom:0;
+  margin-bottom:0;
+  border-bottom:0;
+}
+
+.detail-section h2{
+  font-size:26px;
+  margin-bottom:18px;
+  color:var(--dark);
+}
+
+.detail-section p{
+  color:#444;
+  line-height:1.8;
+}
+
+.detail-list{
+  padding-left:20px;
+}
+
+.detail-list li{
+  margin-bottom:12px;
+  color:#333;
+  line-height:1.6;
+}
+
+.spec-table{
+  display:grid;
+  gap:10px;
+}
+
+.spec-row{
+  display:grid;
+  grid-template-columns:minmax(170px,.42fr) 1fr;
+  gap:14px;
+  padding:12px 14px;
+  background:#f8fafc;
+  border:1px solid #e5e7eb;
+  border-radius:6px;
+}
+
+.spec-row strong{
+  color:var(--dark);
+}
+
+.spec-row span{
+  color:#444;
+  line-height:1.5;
+}
+
 .featured-card[open] .product-image-box{
   border-bottom:2px solid var(--sky);
 }
@@ -370,6 +499,31 @@
 @media(max-width:900px){
   .products-hero-content h1{
     font-size:38px;
+  }
+
+  .product-detail-hero{
+    padding:42px 6%;
+  }
+
+  .product-detail-hero h1{
+    font-size:34px;
+  }
+
+  .product-detail{
+    padding:42px 6% 70px;
+  }
+
+  .product-detail-media img{
+    height:340px;
+  }
+
+  .product-detail-content{
+    padding:24px;
+  }
+
+  .spec-row{
+    grid-template-columns:1fr;
+    gap:6px;
   }
 
   .product-category-grid,
