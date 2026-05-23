@@ -1,0 +1,70 @@
+Special Purpose Machinary
+
+
+1.Laser making machine
+
+Features :
+ Fiber Laser Suitable for all metals marking/Engraving and some plastic marking.
+ Small Size, space – saving, especially suitable for Jewellary engraving and cutting.
+ Electronic marking For logo date and QR Code
+ Kitchenware Marking for logo, date and QR Code.
+
+Technical Specification
+Model	PRIME-20	DELTA-30	CROSS-50	PI-100
+Average Power	20W	30W	50W	100W
+Wave Length	1064nm	1064nm	1064nm	1064nm
+Total Power	500W	500W	600W	1000W
+Beam Quality	M2 <1.5	M2 <1.6	M2 <1.6	M2 <1.6
+Output Beam Diameter	7+1	7+1	7+1	6.5+1
+Frequency	30-60kHz	30-60kHz	50-100kHz	20-200kHz
+Marking size	<=7000mm/s
+Cooling method	Air-Cooling
+Working Environment	10C-35C no Condensation
+Electricity Demand	220V(110V)/50Hz(60Hz)
+Equipment Size	40*52*70cm(15.7*20.5*27.6in)
+
+2. Portable Fiber laser making machine
+
+Features :
+ Fiber Laser Suitable for all metals marking/Engraving and some plastic marking.
+ Small Size, space – saving, especially suitable for Jewellary engraving and cutting.
+ Electronic marking For logo date and QR Code
+ Kitchenware Marking for logo, date and QR Code.
+
+Technical Specification
+Model	DLT20M120	DLT20M130	DLT20M150	DLT20M1100
+Average Power	20W	30W	50W	100W
+Wave Length				
+Total Power	500W	500W	600W	1000W
+Beam Quality	M2 <1.5	M2 <1.6	M2 <1.6	M2 <1.6
+Output Beam Diameter	7+1	7+1	7+1	6.5+1
+Frequency	30-60kHz	30-60kHz	50-100kHz	20-200kHz
+Marking size	<=7000mm/s
+Cooling method	Air-Cooling
+Working Environment	10C-35C no Condensation
+Electricity Demand	220V(110V)/50Hz(60Hz)
+Equipment Size	40*52*70cm(15.7*20.5*27.6in)
+
+3.Laser Engraving Machine
+
+Features :
+ Fiber Laser Suitable for all metals marking/Engraving and some plastic marking.
+ Small Size, space – saving, especially suitable for Jewellary engraving and cutting.
+ Electronic marking For logo date and QR Code
+ Kitchenware Marking for logo, date and QR Code.
+
+Technical Specification
+Model	DLT20M150	DLT20M1100
+Average Power	50W	100W
+Wave Length		
+Total Power	600W	1000W
+Beam Quality	M2 <1.6	M2 <1.6
+Output Beam Diameter	7+1	6.5+1
+Frequency	50-100kHz	20-200kHz
+Marking size	<=7000mm/s
+Cooling method	Air-Cooling
+Working Environment	10C-35C no Condensation
+Electricity Demand	220V(110V)/50Hz(60Hz)
+Equipment Size	40*52*70cm(15.7*20.5*27.6in)
+
+4. Jarkan shaking machine 
